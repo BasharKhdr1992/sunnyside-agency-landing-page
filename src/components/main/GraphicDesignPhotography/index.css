@@ -1,0 +1,63 @@
+.row-container {
+  display: flex;
+}
+
+.img-text-container {
+  width: 50%;
+  position: relative;
+}
+
+.img-text-container img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.overlay h1,
+.overlay p {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.overlay p {
+  width: 60%;
+}
+
+.gd-h,
+.gd-p {
+  color: hsl(167, 40%, 24%);
+}
+
+.photography-h,
+.photography-p {
+  color: hsl(198, 62%, 26%);
+}
+
+@media screen and (max-width: 900px) {
+  .row-container {
+    flex-direction: column;
+  }
+
+  .img-text-container {
+    width: 100%;
+  }
+
+  .overlay p {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    width: 90%;
+  }
+}

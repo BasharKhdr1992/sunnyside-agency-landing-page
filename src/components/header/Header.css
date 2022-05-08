@@ -1,0 +1,44 @@
+.header {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: url('../../images/desktop/image-header.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 95%;
+  background-color: rgba(62, 191, 255, 255);
+}
+
+h1.header-text {
+  margin-top: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8rem;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+}
+
+.arrow-down {
+  width: 2rem;
+  height: 7rem;
+  margin-top: 5rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    background-image: url('../../images/mobile/image-header.jpg');
+    background-size: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .arrow-down {
+    height: 11rem;
+  }
+
+  h1.header-text {
+    margin-top: 5rem;
+  }
+}

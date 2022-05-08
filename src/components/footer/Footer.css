@@ -1,0 +1,43 @@
+.footer {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(144, 212, 197, 255);
+}
+
+.social,
+.navbar-footer {
+  display: flex;
+}
+
+.navlink-footer {
+  color: hsl(168, 34%, 41%);
+  padding: 0.7rem 1.7rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+
+.social {
+  margin-top: 5rem;
+}
+
+.social-icon {
+  margin-right: 1.7rem;
+  cursor: pointer;
+}
+
+.social-icon:last-child {
+  margin-right: 0;
+}
+
+.navlink-footer:hover {
+  color: white;
+}
+
+.social-icon:hover path {
+  fill: white;
+}

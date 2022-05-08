@@ -1,0 +1,45 @@
+.dropdown {
+  position: absolute;
+  left: 5%;
+  top: 9rem;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  justify-content: space-between;
+  height: 50vh;
+  align-items: center;
+  z-index: 0;
+  background-color: white;
+}
+
+.dropdown-link {
+  color: hsl(210, 4%, 67%);
+  padding: 0.8rem 1.4rem;
+  background: transparent;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+}
+
+.dropdown-link-active {
+  border-radius: 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-family: 'Fraunces', sans-serif;
+  background-color: hsl(51, 100%, 49%);
+  padding: 0.8rem 1.4rem;
+  text-transform: uppercase;
+  color: hsl(212, 27%, 19%);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+#triangle {
+  position: absolute;
+  z-index: 1;
+  top: -6rem;
+  right: 0;
+}
