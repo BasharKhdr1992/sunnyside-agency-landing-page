@@ -6,7 +6,9 @@ const Header = () => {
   return (
     <div className="header">
       <Navbar />
-      <h1 className="header-text">We are creatives</h1>
+      <header>
+        <h1 className="header-text">We are creatives</h1>
+      </header>
       <img
         src={arrowDown}
         className="arrow-down"

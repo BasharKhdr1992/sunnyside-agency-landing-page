@@ -21,7 +21,7 @@ const Transform = () => {
         <div className="btn-container">
           <button className={`btn btn-primary`}>
             <span className="btn-text">learn more</span>
-            <div className="underline underline-soft-red" />
+            <span className="underline underline-soft-red" />
           </button>
         </div>
       </div>

@@ -66,6 +66,7 @@
   height: 0.7rem;
   width: 10.2rem;
   border-radius: 8px;
+  display: block;
 }
 
 .underline-soft-red {

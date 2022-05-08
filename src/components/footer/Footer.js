@@ -4,7 +4,7 @@ import logoFooter from '../../images/logo-footer.svg';
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
       <img src={logoFooter} alt="sunnyside logo" />
       <div className="navbar-footer">
         <button className="navlink-footer">About</button>
@@ -61,7 +61,7 @@ const Footer = () => {
           />
         </svg>
       </div>
-    </div>
+    </footer>
   );
 };
 

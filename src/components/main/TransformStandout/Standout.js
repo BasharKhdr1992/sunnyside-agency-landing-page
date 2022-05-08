@@ -24,7 +24,7 @@ const Standout = () => {
         <div className="btn-container">
           <button className={`btn btn-primary`}>
             <span className="btn-text">learn more</span>
-            <div className="underline underline-yellow" />
+            <span className="underline underline-yellow" />
           </button>
         </div>
       </div>

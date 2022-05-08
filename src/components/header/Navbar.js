@@ -12,7 +12,7 @@ const Navbar = () => {
   const toggleDropdown = () => setDropdown(!dropdown);
 
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <img src={logo} alt="sunnyside logo" />
       <div className="navbar-right">
         <button className="navlink collapse">About</button>
@@ -27,7 +27,7 @@ const Navbar = () => {
         />
         {dropdown && width < 900 && <Dropdown />}
       </div>
-    </div>
+    </nav>
   );
 };
 
